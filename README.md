@@ -10,7 +10,7 @@ When you measure the shutter speeds on your camera, do keep in mind that old cam
 
 To build your shutter speed tester, you will need a laser emitter module and a laser detector module. You should be able to find these very cheaply anywhere that sells Arduino accessories. Connect them to your Arduino as shown.
 
-![Shutter Speed Tester Schematic](schematic.svg)
+![Shutter Speed Tester Schematic](schematic.png)
 
 Upload the Sketch and place your film camera in between the emitter and the detector. You will have to be in a reasonbly dark environment, such that the detector is not set off by ambient light. Use bulb mode on your camera to make sure that the laser hits the detector through the shutter. The Arduino's on-board LED will turn on whenever the detector is triggered. On SLR cameras it is recomended to remove the lens, but the shutter speed tester will work correctly through a lens as well.
 
