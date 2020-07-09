@@ -17,7 +17,7 @@ void loop() {
         float fraction = 1000000 / (float)microseconds;
         Serial.print("Measured shutter speed: 1/");
         Serial.print(fraction);
-        Serial.print(" (");
+        Serial.print(" s (");
         Serial.print(microseconds);
         Serial.println(" microseconds)");
         has_fired = false;
